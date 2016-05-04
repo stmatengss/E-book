@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">257</span>
+	<div class="print">
+    	<i class="fa fa-arrow-circle-down"></i>
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul>
+        	<li><a>Chapter 01</a></li>
+            <li><a>Chapter 02</a></li>
+            <li><a>Chapter 03</a></li>
+            <li><a>Chapter 04</a></li>
+            <li><a>Chapter 05</a></li>
+            <li><a>Chapter 06</a></li>
+    	</ul>
+    </div>
+	<div class="container">
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <i class="fa fa-image pic-select"></i>
+                        <span class="btn send">发送</span>
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+            	<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="257"><p><a>“你没听花冈小姐提过这个名字吗？”
+</a></p><p><a>“对不起，我没印象。”
+</a></p><p><a>“这个人在高中当老师，花冈靖子小姐没提过相关的话题吗？”
+</a></p><p><a>“这个嘛……”杉村园子歪着头，“到现在我还在常和她用电话聊天，可是从来没听过这种事。”
+</a></p><p><a>“那么靖子小姐曾对目前的男性交友关系说过什么吗？有没有找你商量或是告诉过你什么？”
+</a></p><p><a>草薙的质问，令杉村园子不禁露出苦笑。
+</a></p><p><a>“关于这点我也跟上次来的另一个刑警先生说过了，我从来没听她提过。说不定她真的有交往对象，只是没告诉我，不过我想应该不可能。靖子忙着抚养美里都来不及了，哪有空谈什么恋爱。上次小代子也是这么说。”
+</a></p><p><a>草薙默然点头。对于石神和靖子的关系，他本来就没指望能从这间店得到太大斩获，所以倒也不失望。不过，听到对方断言靖子毫无与男人交往的迹象，对于石神协助靖子犯案的这个推论，还是多少丧失了自信。
+</a></p><p><a>新的客人进来了，杉村园子露出有点在意那边动静的小动作。
+</a></p></div>
+                <div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="256" style="color:black;text-decoration:none;">&lt;</a></span>
+                        <span class="cur font-ms">257</span>
+                        <span class="font-ms">/</span>
+                        <span class="total font-ms">399</span>
+                        <span class="next font-lg"><a href="258" style="color:black;text-decoration:none;">&gt;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <span class="btn send">发送</span>
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <i class="fa fa-chevron-up up"></i>
+                <i class="fa fa-chevron-down down"></i>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

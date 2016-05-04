@@ -1,0 +1,112 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">180</span>
+	<div class="print">
+    	<i class="fa fa-arrow-circle-down"></i>
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul>
+        	<li><a>Chapter 01</a></li>
+            <li><a>Chapter 02</a></li>
+            <li><a>Chapter 03</a></li>
+            <li><a>Chapter 04</a></li>
+            <li><a>Chapter 05</a></li>
+            <li><a>Chapter 06</a></li>
+    	</ul>
+    </div>
+	<div class="container">
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <i class="fa fa-image pic-select"></i>
+                        <span class="btn send">发送</span>
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+            	<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="180"><p><a>“出了什么事吗？”
+</a></p><p><a>“那倒没有，”美里瞥了一眼墙上时钟，“石神先生今晚从家里进进出出好几次。我从窗口看到他好像是往马路走，我猜应该是打电话给你吧。”
+</a></p><p><a>“喔……”
+</a></p><p><a>也许吧，靖子想。其实和工藤吃饭的时候，她也一直记挂着石神。电话的事固然是原因之一，但更令她耿耿于怀的，是石神在“天亭”和工藤碰个正着。不过工藤似乎只把石
+</a></p><p><a>神当成单纯的客人。
+</a></p><p><a>什么时候不好挑，石神今天怎么偏偏挑那个时间去店里。还跟据说是友人的人一起出现，这是从来没发生过的事情。
+</a></p><p><a>石神一定记得工藤。看到上次坐计程车送她回来的男人，现在又在“天亭”现身，他或许觉得别有含意。这么一想，石神待会肯定会打来的电话就另她格外忧愁。
+</a></p><p><a>正在这么边想边挂大衣之际，玄关的门铃想了。靖子吓了一跳，和美里面面相觑。霎时，她以为是石神来了，但他不可能做这种事。
+</a></p><p><a>“来了。”她朝着门回答。
+</a></p></div>
+                <div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="179" style="color:black;text-decoration:none;">&lt;</a></span>
+                        <span class="cur font-ms">180</span>
+                        <span class="font-ms">/</span>
+                        <span class="total font-ms">399</span>
+                        <span class="next font-lg"><a href="181" style="color:black;text-decoration:none;">&gt;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <span class="btn send">发送</span>
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <i class="fa fa-chevron-up up"></i>
+                <i class="fa fa-chevron-down down"></i>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

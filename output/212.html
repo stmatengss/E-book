@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">212</span>
+	<div class="print">
+    	<i class="fa fa-arrow-circle-down"></i>
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul>
+        	<li><a>Chapter 01</a></li>
+            <li><a>Chapter 02</a></li>
+            <li><a>Chapter 03</a></li>
+            <li><a>Chapter 04</a></li>
+            <li><a>Chapter 05</a></li>
+            <li><a>Chapter 06</a></li>
+    	</ul>
+    </div>
+	<div class="container">
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <i class="fa fa-image pic-select"></i>
+                        <span class="btn send">发送</span>
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+            	<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="212"><p><a>草薙鞠个躬，循着原路走回。石神看着他的背影，内心笼罩在一种莫名的不安中。
+</a></p><p><a>那种感觉，就像他坚信绝对完美的数式，被出乎预期的未知数渐渐打乱时一样。
+</a></p><p><a>－－－－－－－－－－－－－－－－－－－－－－－
+</a></p><p><a>第十一章
+</a></p><p><a>出了都营新宿线条崎车站，草薙就取出手机。从通讯簿选择汤川的号码，按下拨话键。他把手机贴在耳上，环顾四周。下午三点这个不早不晚的时段人潮倒是挺多的，超市前面依然放着成排的脚踏车。
+</a></p><p><a>线路很快就通了，草薙等着嘟声响起。
+</a></p><p><a>但还没响起他就挂断了电话，因为他已经捕捉到要找的人。
+</a></p><p><a>汤川坐在书店前的护栏上，正在吃冰淇淋，他一身白裤黑衣，戴着镜片略小的太阳眼镜。
+</a></p><p><a>草薙越过马路，走近他的背后，汤川的眼睛似乎一直盯着超市周遭。
+</a></p><p><a>“伽利略大师。”
+</a></p></div>
+                <div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="211" style="color:black;text-decoration:none;">&lt;</a></span>
+                        <span class="cur font-ms">212</span>
+                        <span class="font-ms">/</span>
+                        <span class="total font-ms">399</span>
+                        <span class="next font-lg"><a href="213" style="color:black;text-decoration:none;">&gt;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <span class="btn send">发送</span>
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <i class="fa fa-chevron-up up"></i>
+                <i class="fa fa-chevron-down down"></i>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

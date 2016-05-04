@@ -1,0 +1,111 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">115</span>
+	<div class="print">
+    	<i class="fa fa-arrow-circle-down"></i>
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul>
+        	<li><a>Chapter 01</a></li>
+            <li><a>Chapter 02</a></li>
+            <li><a>Chapter 03</a></li>
+            <li><a>Chapter 04</a></li>
+            <li><a>Chapter 05</a></li>
+            <li><a>Chapter 06</a></li>
+    	</ul>
+    </div>
+	<div class="container">
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <i class="fa fa-image pic-select"></i>
+                        <span class="btn send">发送</span>
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+            	<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="115"><p><a>依旧沉睡在教授的抽屉里。再加上学生的水准很差，照顾这些连高中数学都搞不清楚的学生，剥夺了石神的研究时间。儿他忍耐到如此地步得到的薪水却低得可怜。
+</a></p><p><a>他也曾想过换一间大学，不过看起来毫无希望。设置数学系的大学本就不多，就算有数学系，预算也很少，没有多余的钱请助教。因为数学系不像工程院，没有企业愿意赞助
+</a></p><p><a>。
+</a></p><p><a>他被迫转化人生方向，最后他选择以学生时代就考取的教师资格谋生，同时也放弃了成为数学家的梦想。
+</a></p><p><a>石神觉得就算告诉汤川这些事情也无济于事。不得不放弃成为研究者的人，多半都有类似的苦衷，他明白自己的境遇并不稀奇。
+</a></p><p><a>寿司和生鱼片送来了，他们边吃边继续喝酒。汤川带来的酒喝完后，石神就拿出威士忌。其实他很少喝酒，不过他喜欢在解开数学难题后，浅酌几口以消大脑疲劳。
+</a></p><p><a>虽然聊得并不算热闹，不过一边要想学生时代一边谈论数学还是很愉快。石神再次察觉，这么多年，自己早已失去这样的时光。这或许是离开大学后的第一次。也许除了此人
+</a></p><p><a>再无别人能够理解他，也再没人能获得他视为同类的肯定，石神边看着汤川边想。
+</a></p></div>
+                <div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="114" style="color:black;text-decoration:none;">&lt;</a></span>
+                        <span class="cur font-ms">115</span>
+                        <span class="font-ms">/</span>
+                        <span class="total font-ms">399</span>
+                        <span class="next font-lg"><a href="116" style="color:black;text-decoration:none;">&gt;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <span class="btn send">发送</span>
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <i class="fa fa-chevron-up up"></i>
+                <i class="fa fa-chevron-down down"></i>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

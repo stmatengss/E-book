@@ -1,0 +1,141 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">15</span>
+	<div class="print">
+    	<img class="fa fa-arrow-circle-down" src="../static/img/down.png">
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul><li><a href="1">Chapter 01
+</a></li><li><a href="18">Chapter 02
+</a></li><li><a href="40">Chapter 03
+</a></li><li><a href="49">Chapter 04
+</a></li><li><a href="65">Chapter 05
+</a></li><li><a href="80">Chapter 06
+</a></li><li><a href="95">Chapter 07
+</a></li><li><a href="108">Chapter 08
+</a></li><li><a href="130">Chapter 09
+</a></li><li><a href="147">Chapter 10
+</a></li><li><a href="162">Chapter 11
+</a></li><li><a href="176">Chapter 12
+</a></li><li><a href="192">Chapter 13
+</a></li><li><a href="208">Chapter 14
+</a></li><li><a href="225">Chapter 15
+</a></li><li><a href="243">Chapter 16
+</a></li><li><a href="260">Chapter 17
+</a></li><li><a href="275">Chapter 18
+</a></li><li><a href="291">Chapter 19
+</a></li></ul>
+        <div class="jump-box">
+            <input class="jump-control" type="text" />
+            <span class="btn jump">跳转</span>
+        </div>
+    </div>
+	<div class="container">
+	<div class="catalog-content"></div>
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <img class="fa fa-image pic-select" src="../static/img/img.png" />
+                        <!--span class="btn send">发送</span-->
+						<img class="send" src="../static/img/send.png">
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <img id="leftImgFakeView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+				<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="238"><p><a>但美里臭着脸不发一语。
+</a></p><p><a>“你一直那样板着脸，很没礼貌喔。”
+</a></p><p><a>“那你别带我来不就好了。我本来就说我不要来。”
+</a></p><p><a>“可是，人家一番好意非要邀请啊。”
+</a></p><p><a>“那你自己来不就好了，我下次再也不来了。”
+</a></p><p><a>靖子叹了一口气。工藤似乎深信只要时间久了美里自然会打开心房接纳他，但她觉得那显然毫无希望。
+</a></p><p><a>“妈，你要和那个人结婚吗？”美里突然问。
+</a></p><p><a>靖子从倚着的椅背上直起身子，“你胡说什么？”
+</a></p><p><a>“我是认真问你的，你们应该想结婚吧？”
+</a></p><p><a>“不会啦。”
+</a></p><p><a>“真的？”
+</a></p><p><a>“那当然，我们只是偶尔见见面。”
+</a></p><p><a>“那就好。”美里转向车窗。
+</a></p><p><a>“你想说什么？”
+</a></p><p><a>“没什么。”美里说完，缓缓转向靖子，“我只是觉得，如果背叛那个叔叔不太好。”
+</a></p><p><a>“你指的那个叔叔是……”
+</a></p></div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <img class="send" src="../static/img/send.png">
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+			<!--div class="label"></div-->
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <img class="fa fa-chevron-up up" src="../static/img/before.png"/>
+                <img class="fa fa-chevron-down down" src="../static/img/after.png"/>
+            </div>
+        </div>
+	</div>
+	<div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="237">&lt;</a></span>
+                        <span class="cur font-ms">238</span>
+                        <span class="fuck font-ms">/</span>
+                        <span class="total font-ms">304</span>
+                        <span class="next font-lg"><a href="239">&gt;</a></span>
+                    </div>
+    </div>
+	<!--div style="background-color: #ffffff; width:10px; height:10px; position: absolute; bottom:0px; right:0px"></div-->
+</body>
+
+</html>

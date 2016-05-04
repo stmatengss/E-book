@@ -1,0 +1,138 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">19</span>
+	<div class="print">
+    	<img class="fa fa-arrow-circle-down" src="../static/img/down.png">
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul><li><a href="1">Chapter 01
+</a></li><li><a href="18">Chapter 02
+</a></li><li><a href="40">Chapter 03
+</a></li><li><a href="49">Chapter 04
+</a></li><li><a href="65">Chapter 05
+</a></li><li><a href="80">Chapter 06
+</a></li><li><a href="95">Chapter 07
+</a></li><li><a href="108">Chapter 08
+</a></li><li><a href="131">Chapter 09
+</a></li><li><a href="148">Chapter 10
+</a></li><li><a href="163">Chapter 11
+</a></li><li><a href="177">Chapter 12
+</a></li><li><a href="194">Chapter 13
+</a></li><li><a href="211">Chapter 14
+</a></li><li><a href="228">Chapter 15
+</a></li><li><a href="247">Chapter 16
+</a></li><li><a href="263">Chapter 17
+</a></li><li><a href="279">Chapter 18
+</a></li><li><a href="295">Chapter 19
+</a></li></ul>
+        <div class="jump-box">
+            <input class="jump-control" type="text" />
+            <span class="btn jump">跳转</span>
+        </div>
+    </div>
+	<div class="container">
+	<div class="catalog-content"></div>
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <img class="fa fa-image pic-select" src="../static/img/img.png" />
+                        <!--span class="btn send">发送</span-->
+						<img class="send" src="../static/img/send.png">
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <img id="leftImgFakeView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+				<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="321"><p><a>望着正和花冈靖子谈话的友人，草薙一根接一根的抽着烟。靖子一直垂着头，从刚才就没有换过姿势。汤川也只有嘴唇在动，表情毫无变化。然而连草薙都感受得到，笼罩两人的那股紧张空气。
+</a></p><p><a>汤川站起来了。他向靖子行个礼，便朝草薙这边迈步走来。靖子还是同样的姿势，看起来似乎动弹不得。
+</a></p><p><a>“让你久等了。”汤川说。
+</a></p><p><a>“谈完了吗？”
+</a></p><p><a>“恩，谈完了。”
+</a></p><p><a>“她决定怎么做？”
+</a></p><p><a>“不知道。我只负责告诉她，没问她要怎么做，也没建议她该怎么做，一切全看她自己决定。”
+</a></p><p><a>“我刚才也说过了，如果她不肯自首的话……”
+</a></p><p><a>“我知道。”汤川抬手制止他，跨步迈出。“你不用再多说，倒是有件事想拜托你。”
+</a></p><p><a>“你想见石神，对吧？”
+</a></p><p><a>草薙这么一说，汤川略微瞪大了眼。
+</a></p><p><a>“你怎么知道？”
+</a></p><p><a>“我当然知道，也不想想看我们是多少年的交情。”
+</a></p></div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <img class="send" src="../static/img/send.png">
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+			<!--div class="label"></div-->
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <img class="fa fa-chevron-up up" src="../static/img/before.png"/>
+                <img class="fa fa-chevron-down down" src="../static/img/after.png"/>
+            </div>
+        </div>
+	</div>
+	<div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="320">&lt;</a></span>
+                        <span class="cur font-ms">321</span>
+                        <span class="fuck font-ms">/</span>
+                        <span class="total font-ms">309</span>
+                        <span class="next font-lg"><a href="309">&gt;</a></span>
+                    </div>
+    </div>
+	<!--div style="background-color: #ffffff; width:10px; height:10px; position: absolute; bottom:0px; right:0px"></div-->
+</body>
+
+</html>

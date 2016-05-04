@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">325</span>
+	<div class="print">
+    	<i class="fa fa-arrow-circle-down"></i>
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul>
+        	<li><a>Chapter 01</a></li>
+            <li><a>Chapter 02</a></li>
+            <li><a>Chapter 03</a></li>
+            <li><a>Chapter 04</a></li>
+            <li><a>Chapter 05</a></li>
+            <li><a>Chapter 06</a></li>
+    	</ul>
+    </div>
+	<div class="container">
+		<div class="left">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <i class="fa fa-image pic-select"></i>
+                        <span class="btn send">发送</span>
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+            	<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="325"><p><a>岸谷站起来，拿茶壶替他倒茶。谢谢，石神点头致谢。
+</a></p><p><a>“被害者身材魁梧，才四十几岁。如果他拼命抵抗，我觉得应该没那么容易勒死吧？”草薙试探着说。
+</a></p><p><a>“我是柔道社的顾问。如果从后面偷袭，就算对方身体比较高大，也能轻易制服。”
+</a></p><p><a>草薙点点头，眼睛瞥向石神的耳朵，他的耳廓呈现可说是柔道家动章的花椰菜外状。警员之中，也有很多人拥有同样的耳朵。
+</a></p><p><a>“杀人之后呢？”草薙问。
+</a></p><p><a>“当务之急，就是隐瞒死者的身份。因为一旦死者身份曝光，花冈靖子必然会遭到怀疑。首先我剥下他的衣服，用我带去的美工刀边割边剥下。然后，再弄烂他的脸。”石神语气自若的说，“我捡来一块大石头，用塑胶布蒙在他脸上，砸了又砸。我不记得砸了几次。我想，应该有十次左右，然后再用抛弃式打火机烧掉指纹。做完这些后，我带着剥下的衣服，离开现场。没想到我要离开堤防时，正好发现一斗高的罐子，于是我决定把衣服放进去烧。可是火势比我预期的还大，我怕这样或许会引来什么人，所以还没烧完，就匆忙离去。我一直走到公车经过的大马路才拦计程车，先去东京车站，再改搭另一辆计程车回家。抵达公寓时我想应该过了十二点。”说到这里，石神呼的吐出一口大气。“以上就是我所做的。我用的电线、美工刀、抛弃式打火机，全都放在我家。”
+</a></p></div>
+                <div class="footer">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="324" style="color:black;text-decoration:none;">&lt;</a></span>
+                        <span class="cur font-ms">325</span>
+                        <span class="font-ms">/</span>
+                        <span class="total font-ms">399</span>
+                        <span class="next font-lg"><a href="326" style="color:black;text-decoration:none;">&gt;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <span class="btn send">发送</span>
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <i class="fa fa-chevron-up up"></i>
+                <i class="fa fa-chevron-down down"></i>
+            </div>
+        </div>
+	</div>
+</body>
+</html>

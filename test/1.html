@@ -1,0 +1,109 @@
+
+<!doctype html>
+<html>
+<head lang="en" slick-uniqueid="3">
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>EBook</title>
+    
+    <!-- css files -->
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="../static/css/font-awesome-ie7.min.css">
+    <link href="../static/css/index.css" rel="stylesheet" />
+    
+    <!-- lib js files -->
+    <script type="text/javascript" src="../static/js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.ui.min.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.fileupload.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="../static/js/lib/math.json2.js"></script>
+    <script type="text/javascript" src="../static/js/lib/jquery.jstorage.js"></script>
+    
+    <script type="text/javascript" src="../static/js/common.tools.js"></script>
+    <script type="text/javascript" src="../static/js/webSDK.js"></script>
+    <script type="text/javascript" src="../static/js/index.js"></script>
+</head>
+<body>
+    <div id="loading" tabindex="-1" unselectable="on" style="z-index: 99999999; display: none;">
+        <div class="loading-mask" tabindex="-1" unselectable="on"></div>
+        <div class="loading-state" style="">
+            <div class="loading-text">正在生成中，请稍等</div>
+        </div>
+    </div>
+    <span class="page-num">01</span>
+	<div class="print">
+    	<i class="fa fa-arrow-circle-down"></i>
+    </div>
+	<div class="catalog">
+    	<div class="header">Content</div>
+        <ul>
+        	<li><a>Chapter 01</a></li>
+            <li><a>Chapter 02</a></li>
+            <li><a>Chapter 03</a></li>
+            <li><a>Chapter 04</a></li>
+            <li><a>Chapter 05</a></li>
+            <li><a>Chapter 06</a></li>
+    	</ul>
+    </div>
+	<div class="container">
+		<div class="right">
+            <div class="content-box">
+            	<div class="input-panel input-left">
+                    <div class="input-group">
+                        <input class="form-control" placeholder="/发送弹幕" type="text" />
+                        <input id="leftPicView" style="display:none" type="file" name="image" />
+                        <i class="fa fa-image pic-select"></i>
+                        <span class="btn send">发送</span>
+                    </div>
+                    <div class="image-group">
+                        <img id="leftImgView" src="" />
+                        <div id="leftImgLoading" class="loading">正在加载中...</div>
+                    </div>
+                </div>
+            	<div class="label"></div>
+            	<div class="content" data-max-seq="0" data-page="1"><p><a>上午七点三十五分，石神像平常一样离开公寓。虽已进入三月，风还是相当冷，他把下巴埋在围巾里迈步走出。走上马路前，他先瞥了一眼脚踏车停车场。那里放着几辆车，但是没有他在意的绿色脚踏车。
+</a></p><p><a>往南大约走个二十公尺，就来到大马路，是新大桥路。往左，也就是往东走的话就是朝江户川区的线路，往西走则会到日本桥。日本桥前是隅田川，架在河上的桥就是新大桥。
+</a></p><p><a>要去石神的上班地点，这样一直往南走就是最短的路线。只要走个几百公尺，就会走到清澄庭园这个公园。公园前的私立高中就是他上班之处，换言之他是个教师，教数学。
+</a></p><p><a>石神看到眼前的交通灯变成红灯，遂向右转，朝新大桥走去。迎面而来的风掀起他的外套。他将双手插进口袋，微微弓着身子举步前行。
+</a></p><p><a>厚重的云层覆盖天空，隅田川倒映着暗沉的天色，看起来也一片污浊。小船正朝上游前进，石神边望着那副情景边走过新大桥。
+</a></p><p><a>一过了桥，他走下桥旁阶梯。穿过桥下，开始沿着隅田川走。河岸两边都设有步道。不过要是，全家出游或情侣散步，多半是从前面的清洲桥开始，即便是假日也很少有人走到新大桥附近。只要一来到此处立刻会明白原因何在，因为放眼望去，是一整排游民用蓝色塑胶布覆盖的住处。正上方就是高速公路，所以此地用来遮风避雨或许最理想不过。最好的证据，就是河对岸连一间蓝色小屋都没有，当然，这一方面大概也是因为对他们来说群居会比较方便吧。
+</a></p></div>
+                <div class="footer2">
+                	<div class="page">
+                    	<span class="pre font-lg"><a href="0" style="color:black;text-decoration:none;">&lt;</a></span>
+                        <span class="cur font-ms">1</span>
+                        <span class="font-ms">/</span>
+                        <span class="total font-ms">399</span>
+                        <span class="next font-lg"><a href="2" style="color:black;text-decoration:none;">&gt;</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    	<div class="right">
+        	<div class="input-panel input-right">
+                <div class="input-group">
+                    <input class="form-control" placeholder="/发送弹幕" type="text" />
+                    <!--<input id="picPreview" style="display:none" type="file" name="image" />
+                    <i class="fa fa-image pic-select"></i>-->
+                    <span class="btn send">发送</span>
+                </div>
+                <div class="image-group">
+                    <img id="imagePreview" src="" />
+                    <div id="imageLoading" class="loading">正在加载中...</div>
+                </div>
+            </div>
+            <div class="comment-box">
+        		<div class="comment">
+                </div>
+            </div>
+            <div class="flip">
+                <i class="fa fa-chevron-up up" src="before.png"></i>
+                <i class="fa fa-chevron-down down" src="after.png"></i>
+            </div>
+        </div>
+	</div>
+</body>
+</html>
